@@ -29,7 +29,7 @@ static void fifo_copy_to(fifo_t, const void *);
 /*-------------------------------------------------------------*
  *		Public API implementation			*
  *-------------------------------------------------------------*/
-fifo_t fifo_create(uint16_t count, size_t size)
+fifo_t fifo_create(uint16_t count, uint16_t size)
 {
 	fifo_t newfifo;
 	if (count > 0) {
